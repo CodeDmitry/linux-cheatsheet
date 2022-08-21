@@ -1,10 +1,12 @@
-" | This should be stored in ~/.vimrc
+" | This should be stored in ~/.vimrc.
 " | always use spaces instead of tabs.
-" |     in makefile manually turn it off.
+" |     in makefile manually turn it off
+" |     with :set noexpandtab.
 :set expandtab
 " | indent C code.
 :set cindent
 " | show line numbers.
+" |     when copying manually set :set nonumber.
 :set number
 " | smart indent when we press enter.
 :set si
