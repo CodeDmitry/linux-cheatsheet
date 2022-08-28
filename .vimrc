@@ -22,6 +22,8 @@
 " | syntax highlighting.
 :syntax on
 " | in C++, do not indent labels, it is annoying.
+" |     no idea which one of the below works so 
+" |     keeping both.
 :set cinoptions+=L0
 :set cinoptions+=g0
 
