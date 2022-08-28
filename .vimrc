@@ -21,3 +21,7 @@
 :set backspace=2
 " | syntax highlighting.
 :syntax on
+" | in C++, do not indent labels, it is annoying.
+:set cinoptions+=L0
+:set cinoptions+=g0
+
