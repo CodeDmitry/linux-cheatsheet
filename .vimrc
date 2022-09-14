@@ -1,29 +1,33 @@
-" | This should be stored in ~/.vimrc.
-" | always use spaces instead of tabs.
-" |     in makefile manually turn it off
-" |     with :set noexpandtab.
-:set expandtab
-" | indent C code.
-:set cindent
-" | show line numbers.
-" |     when copying manually set :set nonumber.
-:set number
-" | smart indent when we press enter.
-:set si
-" | tab size is 4.
-:set tabstop=4
-" | no clue how this differs from tabstop.
-:set shiftwidth=4
-" | no idea what this does.
+" | Cannot figure out what this does, part of another solution earlier.
+" |     Supposedly has to be first in .vimrc.
 :set nocompatible
-" | makes backspace work in MinGW? may need
-" |     custom configuration.
-:set backspace=2
-" | syntax highlighting.
-:syntax on
-" | in C++, do not indent labels, it is annoying.
-" |     no idea which one of the below works so 
-" |     keeping both.
-:set cinoptions+=L0
-:set cinoptions+=g0
 
+" | Syntax highlighting.
+syntax on
+
+" | Use spaces instead of tabs.
+:set expandtab
+
+" | Appears to fix backspace issues on MinGW.
+:set backspace=2
+
+" | Without this, tab indents 8 spaces.
+:set tabstop=4
+
+" | This seems to be causing the problem.
+:set cindent
+
+" | Without this, auto indent is 8 spaces.
+:set shiftwidth=4
+
+" | Without this, pressing enter after an indented line starts over from beginning of the line.
+:set si
+
+" | 4 space indent after bracket of a function call, allowing 
+" | f (
+" |     a,
+" |     b,
+" |     c
+" | );
+" | See http://vimdoc.sourceforge.net/htmldoc/indent.html section `WN`.
+:set cinoptions=(0,W4
