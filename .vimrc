@@ -30,4 +30,5 @@ syntax on
 " |     c
 " | );
 " | See http://vimdoc.sourceforge.net/htmldoc/indent.html section `WN`.
+" | Without this, the indent is 8 spaces.
 :set cinoptions=(0,W4
