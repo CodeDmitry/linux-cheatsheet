@@ -1,5 +1,5 @@
 1. To insert N blank lines, enter the number of lines, then press shift-O, then press escape.
-2. To delete N lines, enter the number, then press dd.
+2. To delete N lines, enter the number, then press d twice eg dd.
 3. To go to the end of the file, then press shift-G.
 4. To go to the start of the file, type gg.
 5. To go to Nth line, enter the line number to jump to, then press shift-G.
