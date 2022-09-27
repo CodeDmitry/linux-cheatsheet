@@ -3,3 +3,4 @@
 3. To go to the end of the file, press shift-G.
 4. To go to the start of the file, type gg.
 5. To go to Nth line, enter the line number to jump to, then press shift-G.
+6. Type $ to go to the end of the line.
