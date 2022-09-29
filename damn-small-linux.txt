@@ -1,0 +1,2 @@
+1. Damn Small Linux has Perl.
+2. Damn Small Linux has tcc rather than gcc, which has tcclib.h rather than stdio.h/stdlib.h. 
