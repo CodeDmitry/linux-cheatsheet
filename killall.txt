@@ -10,4 +10,4 @@ to kill all processes with the given name.
 Otherwise you have to manually
 kill -9 process_id
 
-for each process id.
+for each process id, which might be impossible if they recreate one another.
