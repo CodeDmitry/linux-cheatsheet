@@ -1,0 +1,3 @@
+bash history is stored in 
+
+~/.bash_history
